@@ -1,0 +1,132 @@
+body {  
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 10px;  
+    padding: 20px;  
+    background-color: rgb(200, 169, 169);  
+    color: rgb(41, 18, 19);  
+}  
+
+header {  
+    background-color: rgb(200, 169, 169);  
+    color: rgb(41, 18, 19);  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+header nav ol,  
+header nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+header nav ol li,  
+header nav ul li {  
+    display: inline;  
+    margin-right: 15px; /* Add space between items */  
+}  
+
+header nav ul li a,  
+header nav ol li a {  
+    color: rgb(140, 152, 177);  
+    text-decoration: double;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+.gallery, .profile-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center; /* Center align items */  
+    margin-top: 20px;   
+}  
+
+.gallery img, .profile-photo {  
+    margin: 10px; /* Separate images */  
+    width: 500px;  
+    height: auto; /* Maintain aspect ratio */  
+    border-radius: 20%;  
+}  
+
+.profile-photo {  
+    border-radius: 10%;  
+}  
+
+/* Basic Reset */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: rgb(200, 169, 169);  
+    color: rgb(41, 18, 19);  
+    line-height: 1.6;  
+    padding: 20px;  
+}  
+
+/* Header Styles */  
+header {  
+    background-color: rgb(41, 18, 19);  
+    color: white;  
+    text-align: center;  
+    padding: 20px;  
+    margin-bottom: 20px;  
+}  
+
+header h1 {  
+    margin-bottom: 10px;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 20px; /* Space between navigation items */  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    transition: color 0.3s;  
+}  
+
+nav ul li a:hover {  
+    color: rgb(200, 169, 169); /* Change color on hover */  
+}  
+
+/* Main Content Styles */  
+main {  
+    margin-bottom: 20px;  
+}  
+
+section {  
+    background-color: white;  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+section h2 {  
+    margin-bottom: 15px;  
+}  
+
+section p {  
+    margin-bottom: 10px;  
+}  
+
+/* Footer Styles */  
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    padding: 10px;  
+    background-color: rgb(41, 18, 19);  
+    color: white;  
+    border-radius: 5px;  
+} 
